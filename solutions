@@ -1,1 +1,6 @@
 https://github.com/kubernetes-incubator/external-storage/tree/master/nfs-client
+
+
+https://stackoverflow.com/questions/44204223/kubernetes-nfs-persistent-volumes-multiple-claims-on-same-volume-claim-stuck
+
+

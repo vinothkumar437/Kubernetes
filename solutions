@@ -11,3 +11,6 @@ https://stackoverflow.com/questions/49721708/how-to-install-specific-version-of-
 install a specific version of kubernetes on centos
 https://stackoverflow.com/questions/49794106/install-a-specific-version-of-kubernetes-on-centos
 
+
+kubectl apply -f https://gist.githubusercontent.com/hjacobs/69b6844ba8442fcbc2007da316499eb4/raw/5b8678ac5e11d6be45aa98ca40d17da70dcb974f/kind-metrics-server.yaml
+

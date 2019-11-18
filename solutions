@@ -14,3 +14,7 @@ https://stackoverflow.com/questions/49794106/install-a-specific-version-of-kuber
 
 kubectl apply -f https://gist.githubusercontent.com/hjacobs/69b6844ba8442fcbc2007da316499eb4/raw/5b8678ac5e11d6be45aa98ca40d17da70dcb974f/kind-metrics-server.yaml
 
+
+Download and modify the Dashboard installation script (executed on the Master)
+
+https://www.cnblogs.com/bluersw/p/11747161.html

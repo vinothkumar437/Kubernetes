@@ -13,5 +13,5 @@
   <pre>kubectl create -f httpd-ingress.yaml</pre>
   <li>kubectl get ingress</li>
   <pre>NAME                       HOSTS                          ADDRESS   PORTS   AGE
-       httpd-deployment-ingress   apache.cloudapps.example.com             80      5s</pre>
+  httpd-deployment-ingress   apache.cloudapps.example.com             80      5s</pre>
 </ol>

@@ -16,7 +16,7 @@
 NAME                       HOSTS                          ADDRESS   PORTS   AGE
 httpd-deployment-ingress   apache.cloudapps.example.com             80      5s</pre>
   <li>Access the URL from browser</li>
-  <p>http://apache.cloudapps.example.com</p>
+  <pre>http://apache.cloudapps.example.com</pre>
   or
   <pre>
   [root@localhost ~]# curl http://apache.cloudapps.example.com

@@ -4,7 +4,7 @@ metadata:
   name: httpd-deployment-ingress
 spec:
   rules:
-  - host: vinoth.cloudapps.example.com
+  - host: apache.cloudapps.example.com
     http:
       paths:
       - backend:

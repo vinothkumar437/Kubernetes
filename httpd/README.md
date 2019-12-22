@@ -2,7 +2,5 @@
 
 <ol>
   <li>Create the apache deployement</li>
-  <pre>
-  kubectl create -f httpd-deployment.yaml
-  </pre>
+  <pre>kubectl create -f httpd-deployment.yaml</pre>
 </ol>

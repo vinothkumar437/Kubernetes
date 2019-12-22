@@ -9,4 +9,6 @@
   <p>or</p>
   <b>through yaml file</b>
   <pre>kubectl create -f httpd-service.yaml</pre>
+  <li>create a ingress</li>
+  <pre>kubectl create -f httpd-ingress.yaml</pre>
 </ol>

@@ -15,4 +15,12 @@
   <pre>kubectl get ingress<br/>
 NAME                       HOSTS                          ADDRESS   PORTS   AGE
 httpd-deployment-ingress   apache.cloudapps.example.com             80      5s</pre>
+  <li>Access the URL from browser</li>
+  <p>http://apache.cloudapps.example.com</p>
+  or
+  <pre>
+  [root@localhost ~]# curl http://apache.cloudapps.example.com
+  <html><body><h1>It works!</h1></body></html>
+  [root@localhost ~]#
+  </pre>
 </ol>

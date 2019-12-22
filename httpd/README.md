@@ -12,7 +12,7 @@
   <li>create a ingress</li>
   <pre>kubectl create -f httpd-ingress.yaml</pre>
   <li>Get the routes</li>
-  <pre>kubectl get ingress
+  <pre>kubectl get ingress<br/>
 NAME                       HOSTS                          ADDRESS   PORTS   AGE
 httpd-deployment-ingress   apache.cloudapps.example.com             80      5s</pre>
 </ol>

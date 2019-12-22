@@ -20,7 +20,7 @@ httpd-deployment-ingress   apache.cloudapps.example.com             80      5s</
   or
   <pre>
   [root@localhost ~]# curl http://apache.cloudapps.example.com
-  <html><body><h1>It works!</h1></body></html>
+  <html><body><h3>It works!</h3></body></html>
   [root@localhost ~]#
   </pre>
 </ol>

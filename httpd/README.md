@@ -6,4 +6,7 @@
   <li> Expose the service through command line or yaml </li>
   <b>command line</b>
   <pre>kubectl expose deploy httpd-deployment --port 80</pre>
+  <p>or</p>
+  <b>Through yaml file</b>
+  <pre>kubectl create -f httpd-service.yaml</pre>
 </ol>

@@ -23,11 +23,22 @@ serviceaccount/tiller created
 clusterrolebinding.rbac.authorization.k8s.io/tiller created</pre>
   <li>Initialize the tiller through helm</li>
   <pre>[admin@local ~]$ helm init --service-account tiller  --skip-refresh
-$HELM_HOME has been configured at /home/finadm/.helm.
+$HELM_HOME has been configured at /home/admin/.helm.
 
 Tiller (the Helm server-side component) has been installed into your Kubernetes Cluster.
 
 Please note: by default, Tiller is deployed with an insecure 'allow unauthenticated users' policy.
 To prevent this, run `helm init` with the --tiller-tls-verify flag.For more information on
 securing your installation see: https://docs.helm.sh/using_helm/#securing-your-helm-installation</pre>
+<b>Note: Above Method is for disconnected environment</b>
+<li>For connected environment</li>
+<pre>[admin@local ~]$ helm init --service-account tiller 
+$HELM_HOME has been configured at /home/admin/.helm.
+
+Tiller (the Helm server-side component) has been installed into your Kubernetes Cluster.
+
+Please note: by default, Tiller is deployed with an insecure 'allow unauthenticated users' policy.
+To prevent this, run `helm init` with the --tiller-tls-verify flag.For more information on
+securing your installation see: https://docs.helm.sh/using_helm/#securing-your-helm-installation
+</pre>
 </ol>

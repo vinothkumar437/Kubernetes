@@ -41,4 +41,12 @@ Please note: by default, Tiller is deployed with an insecure 'allow unauthentica
 To prevent this, run `helm init` with the --tiller-tls-verify flag.For more information on
 securing your installation see: https://docs.helm.sh/using_helm/#securing-your-helm-installation
 </pre>
+<li>Verify the environment</li>
+<pre>kubectl get pods --namespace kube-system</pre>
+<pre>NAME                                    READY     STATUS    RESTARTS   AGE
+kube-dns-64f766c69c-rm9tz               3/3       Running   0          22m
+kube-proxy-worker-5884                  1/1       Running   1          21m
+kube-proxy-worker-5885                  1/1       Running   1          21m
+kubernetes-dashboard-7dd4fc69c8-c4gwk   1/1       Running   0          22m
+tiller-deploy-5c688d5f9b-lccsk          1/1       Running   0          40s</pre>
 </ol>

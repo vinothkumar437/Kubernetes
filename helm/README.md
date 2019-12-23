@@ -8,7 +8,7 @@
   <li>Try to run some basic commands</li>
   <pre>helm version --short --client</pre>
   <pre>[admin@localhost ~]$ helm version --short --client
-v3.0.2+g19e47ee
+Client: v2.16.1+gbbdfe5e
 [admin@localhost ~]$</pre>
   <li>Installing the Tiller</li>
   <p>Tiller is a companion to the helm command that runs on your cluster, receiving commands from helm and communicating directly with the Kubernetes API to do the actual work of creating and deleting resources.</p>

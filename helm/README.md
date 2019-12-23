@@ -19,8 +19,6 @@ v3.0.2+g19e47ee
 serviceaccount/tiller created
 [admin@localhost ~]$</pre>
   <li>bind the tiller serviceaccount to the cluster-admin role</li>
-  <pre>kubectl create clusterrolebinding tiller --clusterrole cluster-admin --serviceaccount=kube-system:tiller</pre>
-  <pre>[adm@lo ~]$ kubectl create clusterrolebinding tiller --clusterrole cluster-admin --serviceaccount=kube-system:tiller
-clusterrolebinding.rbac.authorization.k8s.io/tiller created
-[adm@lo ~]$</pre>
+  <pre>kubectl create clusterrolebinding tiller --clusterrole cluster-admin --serviceaccount=kube-system:tiller
+   clusterrolebinding.rbac.authorization.k8s.io/tiller created</pre>
 </ol>

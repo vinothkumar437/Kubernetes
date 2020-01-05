@@ -18,3 +18,6 @@ Resolving deltas: 100% (10341/10341), done.
   <li>Create custom resource definitions for VirtualServer and VirtualServerRoute resources</li>
   <pre>kubectl apply -f common/custom-resource-definitions.yaml</pre>
   </ol>
+  <h3>Configure RBAC</h3>
+  <p>If RBAC is enabled in your cluster, create a cluster role and bind it to the service account, created in Step 1:</p>
+ 

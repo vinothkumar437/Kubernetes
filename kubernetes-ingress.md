@@ -20,4 +20,5 @@ Resolving deltas: 100% (10341/10341), done.
   </ol>
   <h3>Configure RBAC</h3>
   <p>If RBAC is enabled in your cluster, create a cluster role and bind it to the service account, created in Step 1:</p>
+  <pre>kubectl apply -f rbac/rbac.yaml</pre>
  

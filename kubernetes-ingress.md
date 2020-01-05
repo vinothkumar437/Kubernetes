@@ -11,6 +11,10 @@ Resolving deltas: 100% (10341/10341), done.
   <ol>
   <li>Create a namespace and a service account for the Ingress controller</li>
   <pre>kubectl apply -f common/ns-and-sa.yaml</pre>
-  <li>Create a secret with a TLS certificate and a key for the default server in NGINX:</li>
+  <li>Create a secret with a TLS certificate and a key for the default server in NGINX</li>
   <pre>kubectl apply -f common/default-server-secret.yaml</pre>
+  <li>Create a config map for customizing NGINX configuration</li>
+  <pre>kubectl apply -f common/nginx-config.yaml</pre>
+  <li>Create custom resource definitions for VirtualServer and VirtualServerRoute resources</li>
+  <pre>kubectl apply -f common/custom-resource-definitions.yaml</pre>
   </ol>

@@ -3,4 +3,6 @@
 <li>Create a directory on master node</li>
 <pre>mkdir dashboard-certs</pre>
 <pre>cd dashboard-certs/</pre>
+  <li>Create a namespace</li>
+  <pre>kubectl create namespace kubernetes-dashboard</pre>
 </ol>

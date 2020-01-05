@@ -1,1 +1,1 @@
-<h1>Installing the Ingress Controller</h1>
+<h3>Installing the Ingress Controller</h3>

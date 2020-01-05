@@ -7,6 +7,6 @@
   <pre>kubectl create namespace kubernetes-dashboard</pre>
   <li>Generate a key certificate</li>
   <pre>openssl genrsa -out dashboard.key 2048</pre>
-  <li>Generate a csr from key <li>
+  <li>Generate a csr from key </li>
   <pre>openssl req -days 36000 -new -out dashboard.csr -key dashboard.key -subj '/CN=dashboard-cert'</pre>
 </ol>

@@ -8,4 +8,7 @@ remote: Total 20842 (delta 0), reused 0 (delta 0), pack-reused 20842
 Receiving objects: 100% (20842/20842), 34.85 MiB | 6.39 MiB/s, done.
 Resolving deltas: 100% (10341/10341), done.
 [root@k8smaster ~]#</pre>
+  <h3>Create a Namespace, a SA, the Default Secret, the Customization Config Map, and Custom Resource Definitions</h3>
+  <li>Create a namespace and a service account for the Ingress controller</li>
+  <pre></pre>
   </ol>

@@ -9,6 +9,6 @@
   <pre>openssl genrsa -out dashboard.key 2048</pre>
   <li>Generate a csr from key </li>
   <pre>openssl req -days 36000 -new -out dashboard.csr -key dashboard.key -subj '/CN=dashboard-cert'</pre>
-  <li>Generate a kubernetes csr</li>
+  <li>Generate a kubernetes crt</li>
   <pre>openssl x509 -req -in dashboard.csr -signkey dashboard.key -out dashboard.crt</pre>
 </ol>

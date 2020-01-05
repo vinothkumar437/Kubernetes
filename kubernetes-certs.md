@@ -11,6 +11,6 @@
   <pre>openssl req -days 36000 -new -out dashboard.csr -key dashboard.key -subj '/CN=dashboard-cert'</pre>
   <li>Generate a kubernetes crt</li>
   <pre>openssl x509 -req -in dashboard.csr -signkey dashboard.key -out dashboard.crt</pre>
-  <li>Adding crt as a secret to kubernetes-dash namespace</li>
+  <li>Adding crt as a secret to kubernetes-dashboard namespace</li>
   <pre>kubectl create secret generic kubernetes-dashboard-certs --from-file=dashboard.key --from-file=dashboard.crt -n kubernetes-dashboard</pre>
 </ol>

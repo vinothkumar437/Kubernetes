@@ -1,6 +1,5 @@
 <h3>Installing the Ingress Controller</h3>
-<ol>
-  <li>Clone the github repository</li>
+  <p>Clone the github repository</p>
   <pre>[root@k8smaster ~]# git clone https://github.com/nginxinc/kubernetes-ingress.git
 Cloning into 'kubernetes-ingress'...
 remote: Enumerating objects: 20842, done.
@@ -9,6 +8,7 @@ Receiving objects: 100% (20842/20842), 34.85 MiB | 6.39 MiB/s, done.
 Resolving deltas: 100% (10341/10341), done.
 [root@k8smaster ~]#</pre>
   <h3>Create a Namespace, a SA, the Default Secret, the Customization Config Map, and Custom Resource Definitions</h3>
+  <ol>
   <li>Create a namespace and a service account for the Ingress controller</li>
   <pre></pre>
   </ol>

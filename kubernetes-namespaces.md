@@ -22,4 +22,6 @@
    - kubernetes
  status:
    phase: Terminating</pre>
+   <li>Run the following command to create a temporary JSON file</li>
+   <pre>kubectl get namespace "terminating-namespace" -o json > tmp.json</pre>
 </ol>

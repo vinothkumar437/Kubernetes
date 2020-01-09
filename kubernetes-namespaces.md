@@ -48,4 +48,6 @@
   <pre> kubectl proxy</pre>
   <p>Your proxy IP and port might resemble the following output:</p>
   <pre> Starting to serve on 127.0.0.1:8001</pre>
+  <li>From a new terminal window, make an API call with your temporary proxy IP and port</li>
+  <pre> curl -k -H "Content-Type: application/json" -X PUT --data-binary @tmp.json http://127.0.0.1:8001/api/v1/namespaces/<terminating-namespace>/finalize</pre>
 </ol>

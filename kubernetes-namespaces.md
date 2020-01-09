@@ -7,4 +7,19 @@
   <pre> kubectl get namespaces</pre>
   <li>Select a terminating namespace and view the contents of the namespace to find out the finalizer. Run the following command</li>
   <pre>kubectl get namespace "terminating-namespace" -o yaml</pre>
+  <p>Your YAML contents might resemble the following output</p>
+  <pre> apiVersion: v1
+ kind: Namespace
+ metadata:
+   creationTimestamp: 2018-11-19T18:48:30Z
+   deletionTimestamp: 2018-11-19T18:59:36Z
+   name: <terminating-namespace>
+   resourceVersion: "1385077"
+   selfLink: /api/v1/namespaces/<terminating-namespace>
+   uid: b50c9ea4-ec2b-11e8-a0be-fa163eeb47a5
+ spec:
+   finalizers:
+   - kubernetes
+ status:
+   phase: Terminating</pre>
 </ol>

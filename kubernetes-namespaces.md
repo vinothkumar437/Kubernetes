@@ -74,3 +74,5 @@
 <pre>kubectl get namespaces</pre>
 <p>Continue to follow the steps for other namespaces that are stuck in the Terminating state.</p>
 </ol>
+
+<p>For More Information: <a href="https://www.ibm.com/support/knowledgecenter/en/SSBS6K_3.1.1/troubleshoot/ns_terminating.html">Click here</a></p>

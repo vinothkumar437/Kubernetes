@@ -44,4 +44,8 @@
           "phase": "Terminating"
       }
   }</pre>
+  <li>To set a temporary proxy IP and port, run the following command. Be sure to keep your terminal window open until you delete the stuck namespace</li>
+  <pre> kubectl proxy</pre>
+  <p>Your proxy IP and port might resemble the following output:</p>
+  <pre> Starting to serve on 127.0.0.1:8001</pre>
 </ol>

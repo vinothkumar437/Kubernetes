@@ -69,5 +69,8 @@
      "phase": "Terminating"
    }
 }</pre>
-<li>
+<p>Note: The finalizer parameter is removed.</p>
+<li>Verify that the terminating namespace is removed, run the following command</li>
+<pre>kubectl get namespaces</pre>
+<p>Continue to follow the steps for other namespaces that are stuck in the Terminating state.</p>
 </ol>

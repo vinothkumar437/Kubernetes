@@ -18,3 +18,8 @@ kubectl apply -f https://gist.githubusercontent.com/hjacobs/69b6844ba8442fcbc200
 Download and modify the Dashboard installation script (executed on the Master)
 
 https://www.cnblogs.com/bluersw/p/11747161.html
+
+
+https://blog.csdn.net/u011518749/article/details/103154736
+
+https://github.com/shfshanyue/learn-k8s/

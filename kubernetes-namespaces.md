@@ -8,7 +8,7 @@
   <li>Select a terminating namespace and view the contents of the namespace to find out the finalizer. Run the following command</li>
   <pre>kubectl get namespace "terminating-namespace" -o yaml</pre>
   <p>Your YAML contents might resemble the following output</p>
-  <pre> apiVersion: v1
+  <pre> <span class="pl-ent">apiVersion</span>: v1
  kind: Namespace
  metadata:
    creationTimestamp: 2018-11-19T18:48:30Z

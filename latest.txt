@@ -1,0 +1,10 @@
+REPOSITORY                           TAG                 IMAGE ID            CREATED             SIZE
+k8s.gcr.io/kube-proxy                v1.17.3             ae853e93800d        6 days ago          116MB
+k8s.gcr.io/kube-apiserver            v1.17.3             90d27391b780        6 days ago          171MB
+k8s.gcr.io/kube-controller-manager   v1.17.3             b0f1517c1f4b        6 days ago          161MB
+k8s.gcr.io/kube-scheduler            v1.17.3             d109c0821a2b        6 days ago          94.4MB
+weaveworks/weave-npc                 2.6.0               5105e13e253e        3 months ago        34.9MB
+weaveworks/weave-kube                2.6.0               174e0e8ef23d        3 months ago        114MB
+k8s.gcr.io/coredns                   1.6.5               70f311871ae1        3 months ago        41.6MB
+k8s.gcr.io/etcd                      3.4.3-0             303ce5db0e90        3 months ago        288MB
+k8s.gcr.io/pause                     3.1                 da86e6ba6ca1        2 years ago         742kB

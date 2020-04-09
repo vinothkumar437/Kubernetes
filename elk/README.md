@@ -1,0 +1,1 @@
+<h3>Install ElasticSearch and Kibana to store and visualize monitoring data  <a href="https://kauri.io/25-install-elasticsearch-and-kibana-to-store-and-v/e5b86351f38940b8a071267062f052cb/a">Click here</a></h3>
